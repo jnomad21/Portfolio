@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#drop{
+    display: grid;
+    justify-content: center;
+}
+#drop .back-video{
+    z-index: -1;
+    position: absolute;
+
+}
+#drop #welcome{
+    z-index: 1;
+    color: white;
+}
+#drop .p-drop{
+    margin-top: 20vh;
+    justify-content: center;
+    
+}
+#drop #welcome{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    ;
+}
+#drop #drop-button{
+    background-color: #9B7874;
+    color: White;
+    Width: 50%;
+    Height: 150%;
+    text-align: center;
+    margin-left: 25%;
+    font-family: 'Permanent Marker', cursive;
+    ;
+}
+#drop .jm-header{
+    font-family: 'Caveat', cursive;
+    color:#9B7874;
+    margin-top: 8vh;
+    font-size: 500%;
+    width: 75vh;
+    text-align: center;
+    text-decoration: underline;
+
+}
+#drop-close{
+    display: none;
+}
