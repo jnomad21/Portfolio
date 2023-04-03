@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -13,17 +17,39 @@
     <link rel="stylesheet" href="style.css">
     <title>Jason McGrath Portfolio</title>
 </head>
+
 <body>
-    <div id="drop" id="drop-close">
+    <section id="drop" id="drop-close">
         <video autoplay loop muted plays-inline class="back-video">
         <source src="drop-98064.mp4">
         </video>
-        <h1 class="jm-header">Jason McGrath</h1>
-        <p class = p-drop>
+        <h1 id="jm-header">Jason McGrath</h1>
+        <div id = p-drop>
             <H1 id="welcome">I'm Glad You're Here</H1>
             <Button onclick="toggleEntry" id="drop-button">Come On In</Button>
-        </p>
-    </div>
+        </div>
+</section>
+    <nav class="side-nav">
+        <p id="initials">JM</p>
+        <ul class="nav-links">
+            <li><a href="#"><p>About Me</p></a></li>
+            <li><a href="#"><p>Resume</p></a></li>
+            <li><a href="#"><p>Projects</p></a></li>
+            <li><a href="#"><p>Links & Contacts</p></a></li>
+            <div class="active"></div>
+        </ul>
+    </nav>
+</div>
+<div class="main-sections">
+    <h1 class="main-headings">About Me</h1>
+    <p class="section-text">Oh say can you see, by the dawn's early light.  What's so proudly we hailed at the twilight's last gleaming.  Who's broad stripes and bright stars through the perilous fight.</p>
+</div>
+<div class="portrait">
+        <img src="JM-Portrait 2021.JPG" alt="JM pic" id="jm-pic">
+    
+
+    
     <script src="app.js"></script>
+    
 </body>
 </html>

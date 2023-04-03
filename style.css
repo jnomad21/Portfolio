@@ -5,47 +5,184 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #b5b5b8;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.main-sections{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: inline;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.main-headings{
+    text-shadow: 0 10px 10px #1c1f33;
+    display: flex;
+    flex-direction: column;
+}
+.section-text{
+    padding-top: 3%;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+
+}
+#initials{
+    font-family: 'Damion', cursive;
+    display: block;
+    margin-bottom: 130px;
+    color:white;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 0 10px 10px #1c1f33;
+    margin-top: 20%;
+}
+.side-nav {
+    width: 250px;
+    height:100%;
+    background: #9B7874;
+    Position: fixed;
+    Top:0;
+    Left:0;
+    Padding: 20px 30px;
+    box-shadow: 0 10px 10px #1c1f33
+
+}
+.nav-links{
+    list-style: None;
+    position: relative;
+    
+    
+    
+}
+.nav-links li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.portrait{
+    position: relative;
+    
+}
+
+#jm-pic {
+    width: 160px;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    box-shadow: 0 20px 20px #1c1f33;
+    
+    
+    
+}
+
+.active{
+    background: #1c1f3346;
+    width: 100%;
+    height: 67px;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px #1c1f33;
+    display: none;
+    transition: 0.5s;
+}
+.nav-links li:hover a{
+    color: white;
+    transition: 0.3s;
+}
+.nav-links li:hover ~ .active {
+    display: block;
+}
+.nav-links li:nth-child(1):hover ~ .active {
+    top: 2.6%
+}
+
+.nav-links li:nth-child(2):hover ~ .active {
+    top: 27.6%
+}
+.nav-links li:nth-child(3):hover ~ .active {
+    top: 52.6%
+}
+.nav-links li:nth-child(4):hover ~ .active {
+    top: 77.6%
+}
+
 #drop{
     display: grid;
+    grid-template-rows: 30% 70%;
     justify-content: center;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    z-index: 5;
+
 }
 #drop .back-video{
-    z-index: -1;
-    position: absolute;
+    z-index: -2;
+    position: fixed;
+    align-items: center;
+    background-position: center;
 
 }
 #drop #welcome{
     z-index: 1;
     color: white;
-}
-#drop .p-drop{
-    margin-top: 20vh;
-    justify-content: center;
-    
-}
-#drop #welcome{
+    align-items: center;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    ;
 }
+#drop #p-drop{
+    margin-bottom:40vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
 #drop #drop-button{
     background-color: #9B7874;
     color: White;
-    Width: 50%;
     Height: 150%;
     text-align: center;
-    margin-left: 25%;
     font-family: 'Permanent Marker', cursive;
-    ;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    
 }
-#drop .jm-header{
+#drop #jm-header{
     font-family: 'Caveat', cursive;
     color:#9B7874;
-    margin-top: 8vh;
     font-size: 500%;
-    width: 75vh;
+    width: 75vw;
     text-align: center;
     text-decoration: underline;
+    align-items: center;
+    
 
 }
 #drop-close{
