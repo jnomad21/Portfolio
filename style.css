@@ -32,6 +32,7 @@ main{
     margin-top: 2%;
     display: flex;
     flex-direction: column;
+    
 }
 .main-headings{
     text-shadow: 0 10px 10px #1c1f33;
@@ -41,13 +42,17 @@ main{
     color: white;
 }
 .section-text{
-    padding-top: 3%;
+    padding: 1%;
     width: 60%;
     text-align: center;
     display: flex;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: x-large;
     color: white;
+    background: #1c1f3383;
+    box-shadow: 0 5px 5px white;
+    line-height: 35px;
+    
 
 }
 #initials{
@@ -63,12 +68,13 @@ main{
 .side-nav {
     width: 250px;
     height:100%;
-    background: linear-gradient(to right,#826461, 80%, #a29c9b);
+    background: linear-gradient(to top,#1c1f33, 80%, White);
+                
     Position: fixed;
     Top:0;
     Left:0;
     Padding: 20px 30px;
-    box-shadow: 0 10px 10px #1c1f33
+    box-shadow: 0 10px 0px #1c1f33
 
 }
 .nav-links{
@@ -82,6 +88,7 @@ main{
     font-size: 24px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 20px 20px #1c1f33;
 }
 
 .portrait{
@@ -108,7 +115,7 @@ main{
     top: 0%;
     z-index: -1;
     border-radius: 6px;
-    box-shadow: 0 5px 10px #1c1f33;
+    box-shadow: 0 5px 10px white;
     display: none;
     transition: 0.5s;
 }
@@ -141,7 +148,7 @@ main{
     position: relative; 
 }
 #links{
-    background: #826461;
+    background: #1c1f3384;
     list-style: none;
     width: 20%;
     bottom: 5%;
@@ -163,7 +170,7 @@ main{
 }
 
 #contacts{
-    background-color: #826461;
+    background-color: #1c1f3384;
     color: white;
     text-align: center;
     width: 40%;
@@ -175,8 +182,12 @@ main{
     border-radius: 100%;
     display: none;
 }
+#contacts a{
+    color: white;
+    text-decoration: none;
+}
 #close-rez{
-    background-color: #9B7874;
+    background-color: #1c1f33;
     color: white;
     font-family: 'Caveat', cursive;
     width:8%;

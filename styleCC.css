@@ -1,0 +1,43 @@
+body{
+    position: relative;
+}
+.clock{
+    z-index: -1;
+}
+.counter{
+    position: absolute;
+    bottom: 70vh;
+    left: 18vw;
+    color: white;
+}
+#result{
+    position: absolute;
+    bottom: 50vh;
+    left: 16vw;
+}
+h2{
+   display: inline; 
+}
+input{
+    width: 30px;
+}
+#yearInput {
+    width: 60px;
+}
+h3{
+    display:inline;
+    margin-left: 50px;
+}
+h4{
+    font-size: 22px;
+}
+#target-date-result {
+    color: rgb(59, 238, 187);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    padding-left: 100px;
+    text-shadow: 0 5px 10px white;
+    
+
+}
