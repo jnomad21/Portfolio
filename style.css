@@ -145,6 +145,19 @@ main{
     list-style: none;
     width: 20%;
     bottom: 5%;
+    border-radius: 100%;
+    box-shadow: 0 10px 10px white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+.links a{
+    text-decoration: none;
+    color: white;
+
+}
+#resume{
+    display: none;
 }
 
 
@@ -182,8 +195,7 @@ main{
     justify-content: center;
     align-items: center;
     position: relative;
-    
-    
+      
 }
 
 #drop #drop-button{
@@ -212,4 +224,7 @@ main{
 }
 #drop-close{
     display: none;
+}
+#resume-show{
+    display: block;
 }
