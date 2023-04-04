@@ -36,7 +36,7 @@
             <li><a href="#"><p>About Me</p></a></li>
             <li><a onclick="toggleEntryShow" id= "rezButton" href="#"><p>Resume</p></a></li>
             <li><a href="#"><p>Projects</p></a></li>
-            <li><a href="#"><p>Links & Contacts</p></a></li>
+            <li><a id="links-contacts" href="#"><p>Links & Contacts</p></a></li>
             <div class="active"></div>
         </ul>
     </nav>
@@ -55,27 +55,34 @@
         <img src="JM-Portrait 2021.JPG" alt="JM pic" id="jm-pic">
 </div>
 <div id= "resume" id="resume-show" class="main-sections">
-    <h2 class="main-headings">Resume</h2>
+    <!-- <h2 class="main-headings">Resume</h2> -->
     <div class="resume">
         <img class="rez-pages"src="Resume-Page-1.PNG" alt="">
         <img class="rez-pages"src="Resume-Page-2.PNG" alt="">
         <img class="rez-pages"src="Resume-Page-3.PNG" alt="">
     </div>
+    <button id="close-rez">Close Resume</button>
 </div>
 <div class="main-sections">
     <h2 class="main-headings">Projects</h2>
 </div>
 <div class="main-sections">
     <h2 class="main-headings">Contacts</h2>
-        <ul class="links">
+        <ul id="links">
         <li><a href="https://www.linkedin.com/in/jason-mcgrath-9528a884/" target="_blank"><h4>LinkedIn</h4></a></li>
         <li><a href="https://github.com/jnomad21" target="_blank"><h4>GitHub</h4></a></li>
-        <li><a href="#"><h4>Email</h4></a></li>
+        <li><a onclick="toggleOpenContacts" id= "open-contacts" href="#"><h4>Email/Phone</h4></a></li>
         </ul>
 </div>
+<div class="main-sections">
+    <div id="contacts">
+        <h4>Email:<br>JDMcGrath21@gmail.com<br><br>Phone:<br>949-264-2682</h4>
 
+    </div>
+</div>
 </main>
-    <script src="app.js"></script>
     
+<script src="app.js"></script>    
 </body>
+
 </html>

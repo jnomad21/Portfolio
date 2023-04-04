@@ -134,13 +134,13 @@ main{
 }
 .rez-pages{
     display:inline;
-    width: 30%;
+    width: 32%;
     justify-content: center;
 }
 .resume {
     position: relative; 
 }
-.links{
+#links{
     background: #826461;
     list-style: none;
     width: 20%;
@@ -151,13 +151,37 @@ main{
     margin-bottom: 2%;
     
 }
-.links a{
+#links a{
     text-decoration: none;
     color: white;
 
 }
 #resume{
     display: none;
+    position: absolute;
+    top: 0
+}
+
+#contacts{
+    background-color: #826461;
+    color: white;
+    text-align: center;
+    width: 40%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    display: inline;
+    box-shadow: 0 10px 10px white;
+    border-radius: 100%;
+    display: none;
+}
+#close-rez{
+    background-color: #9B7874;
+    color: white;
+    font-family: 'Caveat', cursive;
+    width:8%;
+    Height: 40px;
+    font-size: large;
 }
 
 
