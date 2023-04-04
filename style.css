@@ -9,18 +9,27 @@ body{
     background-color: #b5b5b8;
     display: flex;
     flex-direction: column;
+
+}
+main{
+    height: 200vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display:relative;
     
-    
+}
+.raindrops{
+    z-index: -10;
+    position: fixed;
 }
 .main-sections{
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     display: inline;
     font-family: 'Caveat', cursive;
     font-size: 40px;
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
 }
@@ -28,6 +37,8 @@ body{
     text-shadow: 0 10px 10px #1c1f33;
     display: flex;
     flex-direction: column;
+    padding-top: 5%;
+    color: white;
 }
 .section-text{
     padding-top: 3%;
@@ -36,6 +47,7 @@ body{
     display: flex;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: x-large;
+    color: white;
 
 }
 #initials{
@@ -51,7 +63,7 @@ body{
 .side-nav {
     width: 250px;
     height:100%;
-    background: #9B7874;
+    background: linear-gradient(to right,#826461, 80%, #a29c9b);
     Position: fixed;
     Top:0;
     Left:0;
@@ -62,9 +74,6 @@ body{
 .nav-links{
     list-style: None;
     position: relative;
-    
-    
-    
 }
 .nav-links li a{
     padding: 10px;
@@ -88,12 +97,10 @@ body{
     right:0px;
     box-shadow: 0 20px 20px #1c1f33;
     
-    
-    
 }
 
 .active{
-    background: #1c1f3346;
+    background: #1c1f3321;
     width: 100%;
     height: 67px;
     position: absolute;
@@ -125,6 +132,21 @@ body{
 .nav-links li:nth-child(4):hover ~ .active {
     top: 77.6%
 }
+.rez-pages{
+    display:inline;
+    width: 30%;
+    justify-content: center;
+}
+.resume {
+    position: relative; 
+}
+.links{
+    background: #826461;
+    list-style: none;
+    width: 20%;
+    bottom: 5%;
+}
+
 
 #drop{
     display: grid;
@@ -136,6 +158,8 @@ body{
     justify-content: center;
     min-height: 100vh; 
     z-index: 5;
+    max-height: 100vh;
+    position: fixed;
 
 }
 #drop .back-video{
