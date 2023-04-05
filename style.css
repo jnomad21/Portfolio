@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -68,8 +69,7 @@ main{
 .side-nav {
     width: 250px;
     height:100%;
-    background: linear-gradient(to top,#1c1f33, 80%, White);
-                
+    background: linear-gradient(to top,#1c1f33, 80%, White);       
     Position: fixed;
     Top:0;
     Left:0;
@@ -90,10 +90,34 @@ main{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: 0 20px 20px #1c1f33;
 }
+.proj {
+    
+    position: absolute;
+    
+    display: none;
+    list-style-type: none;
+    margin-left: 200px;
+    margin-top: -120px;
+    background: linear-gradient(to top,#35384a, 80%, #484c63);
+    border-radius: 5%;
+    
+
+}
+
+.nav-links .proj li a{
+    display: block;
+    width: 10vw;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
 
 .portrait{
     position: relative;
-    
+}
+#tech-logos{
+    width: 30%
 }
 
 #jm-pic {
@@ -119,10 +143,12 @@ main{
     display: none;
     transition: 0.5s;
 }
+
 .nav-links li:hover a{
     color: white;
     transition: 0.3s;
 }
+
 .nav-links li:hover ~ .active {
     display: block;
 }
@@ -131,13 +157,17 @@ main{
 }
 
 .nav-links li:nth-child(2):hover ~ .active {
-    top: 27.6%
+    top: 22.6%
 }
 .nav-links li:nth-child(3):hover ~ .active {
-    top: 52.6%
+    top: 42.6%
 }
 .nav-links li:nth-child(4):hover ~ .active {
-    top: 77.6%
+    top: 62.6% 
+}
+
+.nav-links li:nth-child(5):hover ~ .active {
+    top: 82.6% 
 }
 .rez-pages{
     display:inline;

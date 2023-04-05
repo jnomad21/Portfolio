@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    color: white;
+    background: url("https://imgur.com/GdLCtEG.png");
+    z-index: 1;
+    position: relative;
+    margin-top: 30vh
+  }
+  #matrix{
+    z-index: -1;
+    position: fixed;
+    top:0;
+    left:0;
+  }
+  h1 {
+    font-family: lucida handwriting;
+    font-size: 36px;
+    
+  }
+  h1 span {
+    background: black;
+  }
+  h3 span {
+    background: black;
+  
+  }
+  h4 span {
+    background: black;
+  }
+  p {
+    font-size:40px;
+    color: White;
+    background: black;
+    padding: 20px;
+    
+  }
+  
