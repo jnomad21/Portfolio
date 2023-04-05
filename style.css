@@ -21,6 +21,7 @@ main{
 .raindrops{
     z-index: -10;
     position: fixed;
+    width: 150%;
 }
 .main-sections{
     text-align: center;
@@ -41,6 +42,7 @@ main{
     flex-direction: column;
     padding-top: 5%;
     color: white;
+    
 }
 .section-text{
     padding: 1%;
@@ -292,4 +294,64 @@ main{
 }
 #resume-show{
     display: block;
+}
+@media screen and (max-width: 500px) {
+    #jm-pic{
+        width: 20vw;
+        left: 20px;
+        top: 100px;
+    }
+    .side-nav{
+        width: 120px;
+    }
+    .nav-links li a{
+        font-size: 18px;
+    }
+    #initials {
+        font-size: 45px;
+    }.main-sections {
+        width: 60vw;
+        margin-left: 20%;
+    }.main-headings{
+        width: 60vw;
+        font-size: 36px;
+        margin-left: 40%;
+    }.section-text{
+        width: 90%;
+        margin-left: 40%;
+        font-size: 16px;
+    }
+    .active {
+        display: none;
+    }
+    main{
+        height: 250vh;
+    }
+    .raindrops{
+        height: 110%
+    }
+    #contacts{
+        width: 60vw;
+        border-radius: 25%;
+        margin-left:50%
+    }
+    #contacts a {
+        font-size: 20px;
+    }
+    #links{
+        width: 60vw;
+        border-radius: 25%;
+        margin-left:50%
+    }
+    #links a{
+        font-size: 24px;
+    }
+    #tech-logos{
+        margin-left: 50%;
+        width: 60%
+    }
+    .proj {
+
+    }
+    
 }
