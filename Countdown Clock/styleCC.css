@@ -5,6 +5,10 @@ body{
     z-index: -1;
     
 }
+#video{
+    object-fit: cover;
+}
+
 .counter{
     position: absolute;
     bottom: 70vh;

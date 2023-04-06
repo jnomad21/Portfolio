@@ -21,6 +21,7 @@ main{
 .raindrops{
     z-index: -10;
     position: fixed;
+    object-fit: cover;
     
 }
 .main-sections{
@@ -374,7 +375,7 @@ main{
     
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 501px) {
     #jm-pic{
         width: 12vw;
         left: 40px;
