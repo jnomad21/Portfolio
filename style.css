@@ -303,9 +303,11 @@ main{
     }
     .side-nav{
         width: 120px;
+        
     }
     .nav-links li a{
         font-size: 18px;
+        
     }
     #initials {
         font-size: 45px;
@@ -345,6 +347,7 @@ main{
     }
     #links a{
         font-size: 24px;
+        
     }
     #tech-logos{
         margin-left: 50%;
@@ -354,14 +357,98 @@ main{
         margin-left: 140%;
         width: 160%;
         
+        
     }
     .nav-links .proj li a{
         font-size: 16px;
+        
     }
     .rez-pages {
         display: block;
         width: 140%;
         margin-left: -25%
+    }
+    #close-rez {
+        width: 50%
+    }
+    
+}
+
+@media screen and (max-width: 950px) {
+    #jm-pic{
+        width: 12vw;
+        left: 40px;
+        top: 150px;
+    }
+    .side-nav{
+        width: 180px;
+        
+    }
+    .nav-links li a{
+        font-size: 18px;
+        
+    }
+    .nav-links{
+        margin-top: 250px;
+    }
+    #initials {
+        font-size: 45px;
+    }.main-sections {
+        width: 60vw;
+        margin-left: 20%;
+    }.main-headings{
+        width: 60vw;
+        font-size: 36px;
+        margin-left: 40%;
+    }.section-text{
+        width: 90%;
+        margin-left: 40%;
+        font-size: 16px;
+    }
+    .active {
+        visibility: hidden;
+    }
+    main{
+        height: 150vh;
+    }
+    .raindrops{
+        height: 110%
+    }
+    #contacts{
+        width: 60vw;
+        border-radius: 25%;
+        margin-left:50%
+    }
+    #contacts a {
+        font-size: 20px;
+    }
+    #links{
+        width: 60vw;
+        border-radius: 25%;
+        margin-left:50%
+    }
+    #links a{
+        font-size: 24px;
+        
+    }
+    #tech-logos{
+        margin-left: 50%;
+        width: 60%
+    }
+    .proj {
+        margin-left: 140%;
+        width: 160%;
+        
+        
+    }
+    .nav-links .proj li a{
+        font-size: 16px;
+        
+    }
+    .rez-pages {
+        display: block;
+        width: 140%;
+        margin-left: -20%
     }
     #close-rez {
         width: 50%
