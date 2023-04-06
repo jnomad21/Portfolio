@@ -4,10 +4,13 @@ Personal Portfolio
 My site is hosted here: jasonmcgrath.netlify.app
 
 My portfolio is built with HTML(30%) CSS (43%) and JavaScript (27%).  
-It has a splash page for entry with JS for the entry process.  
+  
 
 UI/UX DESIGN:
 I wanted to have some unifying theme so I went with a water theme (Splash page water drop, rain drops for background video, darker blue color pallette)
+
+SPLASH PAGE:
+splash page for entry to homepage built with JS for the entry process.
 
 NAV BAR
 I opted to build a side nav bar vs the traditional top nav bar. 
@@ -36,4 +39,5 @@ Word Snake: Is a word game that will only accept words that start with the last 
 
 Rock, Paper, Scissors:  An application in which you pick Rock, Paper, or Scissors and the Computer will auto-generate their pick and upon submission the result will auto-populate.
 
-
+RESPONSIVE DESIGN: 
+The portfolio and projects should all be sufficiently viewable on mobile, tablet, desktop
