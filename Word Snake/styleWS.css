@@ -6,7 +6,7 @@
 
 body {
     display: grid;
-    grid-template-rows: 35% 12% 8% 40%;
+    grid-template-rows: 35% 12% 8% 4%;
     height:100vh;
     
 }
@@ -82,20 +82,35 @@ header {
     grid-area: "hdr";
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
 body {
-    grid-template-rows: 35% 12% 8% 40%;
+    grid-template-rows: 35% 8% 8% 49%;
     grid-template-areas: 
 "hdr"
 "bravo"
 "div1"
 "botSec";  
 }
-img {
-    max-width: 200px;
-    max-height: auto;
+#snake {
+    max-width: 250px;  
+}
+.bot-sec{
+    height: 100vh;
 }
 }
-
-    
-    
+@media only screen and (min-width: 501px) and (max-width:950px){
+    body {
+        grid-template-rows: 30% 8% 5% 52%;
+        grid-template-areas: 
+    "hdr"
+    "bravo"
+    "div1"
+    "botSec";  
+    }
+    #snake {
+        max-width: 400px;  
+    }
+    .bot-sec{
+        height: 100vh;
+    }
+}
