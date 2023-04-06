@@ -1,6 +1,8 @@
 # Portfolio
 Personal Portfolio
 
+My site is hosted here: jasonmcgrath.netlify.app
+
 My portfolio is built with HTML(30%) CSS (43%) and JavaScript (27%).  
 It has a splash page for entry with JS for the entry process.  
 
