@@ -21,7 +21,7 @@ main{
 .raindrops{
     z-index: -10;
     position: fixed;
-    width: 150%;
+    
 }
 .main-sections{
     text-align: center;
@@ -351,7 +351,20 @@ main{
         width: 60%
     }
     .proj {
-
+        margin-left: 140%;
+        width: 160%;
+        
+    }
+    .nav-links .proj li a{
+        font-size: 16px;
+    }
+    .rez-pages {
+        display: block;
+        width: 140%;
+        margin-left: -25%
+    }
+    #close-rez {
+        width: 50%
     }
     
 }
