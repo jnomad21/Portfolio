@@ -5,7 +5,11 @@ body{
     z-index: -1;
     
 }
+#tall-clock{
+    display: none;
+}
 #video{
+    
     object-fit: cover;
 }
 
@@ -43,6 +47,100 @@ h4{
     font-weight: 900;
     padding-left: 100px;
     text-shadow: 0 5px 10px white;
-    
 
+}@media screen and (max-width: 500px){
+  #video {
+    display: none;
+  }
+  #tall-clock{
+    display:block;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+  }
+  .counter{
+    left: 3%;
+    top:2%;
+    
+  }
+  h4{
+    margin-top:-1%;
+    width: 60%
+  }
+  #result{
+    left: -20%;
+    bottom: 0%;
+    top: 30%;
+    
+  }
+  #target-date-result{
+    font-size: 46px;
+    color: rgb(251, 170, 30)
+  }
+  h1{
+    font-size: 24px;
+    width: 60%;
+  }
+  h2{
+    display: inline;
+    font-size: 18px; 
+ }
+ input{
+     width: 18px;
+ }
+ #yearInput {
+     width: 40px;
+ }
+ h3{
+     display:inline;
+     margin-left: 15px;
+ }
+  }
+  @media screen and (min-width: 501px) and (max-width:950px){
+    #video {
+      display: none;
+    }
+    #tall-clock{
+      display:block;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+    }
+    .counter{
+      left: 10%;
+      top:4%; 
+    }
+    h4{
+      margin-top:-1%;
+      font-size: 36px;
+    }
+    #result{
+      left:4%;
+      bottom: 0%;
+      top: 22%;  
+    }
+    #target-date-result{
+      font-size: 60px;
+      color: rgb(251, 170, 30)
+    }
+    h1{
+      font-size: 48px;
+      width: 60%;
+    }
+    h2{
+      display: inline;
+      font-size: 36px; 
+   }
+   input{
+       width: 36px;
+   }
+   #yearInput {
+       width: 60px;
+   }
+   h3{
+       display:inline;
+       margin-left: 10%;
+       font-size: 30px;
+   }
 }
+
