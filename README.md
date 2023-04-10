@@ -31,7 +31,9 @@ For the "Technical Skills" I only noted the three core technologies that we have
 Contacts has linked HTML's which will pop open my LinkedIn and GitHubs pages in new windows.  Upon clicking "Email/Phone", a hidden Div will appear (JavaScript) with that information.
 
 PROJECTS:
-I have 3 projects that will appear in new windows upong clicking them in the Projects sub-menu.
+I have 4 projects that will appear in new windows upong clicking them in the Projects sub-menu.
+
+NFL HangMan: Traditional Hangman game with NFL teams built out with Javascript
 
 Countdown Clock: I built an application that will tell you how many days are left to a target date.  This application is built out of Javascript.
 
