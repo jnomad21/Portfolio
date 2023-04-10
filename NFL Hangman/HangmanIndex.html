@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HangmanStyle.css">
+    <title>Hangman</title>
+</head>
+<body>
+    
+    <header> 
+        <h1><img src="Fpics/nfl-1-logo-png-transparent.png" alt="" id="logo">
+        Teams Hangman</h1>
+    </header>
+    <main> 
+        <section class="section1">
+            <div class = "alpha">
+                <h2><span id="choose-letter">CHOOSE LETTER</span></h2>
+                <div id="letter-input">
+                    <input id="letter-guess" type="text">
+                    <button id="letter-button">Submit</button>
+                </div>
+            </div>
+            <div id="blank-spaces">
+                <div class="incorrect-guesses">
+                    <h3>Incorrect Guesses Left:</h3><h3 id="guess-number">5</h3><br>
+                </div>
+                <h3 id="answer">Answer:</h3>  
+            </div>
+            <div class="guessed"> 
+                <h2>Letters Guessed:</h2>
+        
+            </div>
+    </section>
+    <section class="section2">
+        <div id="gallows">
+            <img src="Fpics/Noose0.png" alt="" class= "pics" id="noose">
+            <img src="Fpics/Noose1.png" alt="" class= "pics" id="noose1">
+            <img src="Fpics/Noose3.png" alt="" class= "pics" id="noose2">
+            <img src="Fpics/Noose4.png" alt="" class= "pics" id="noose3">
+            <img src="Fpics/Noose5.png" alt="" class= "pics" id="noose4">
+            <img src="Fpics/Noose6.png" alt="" class= "pics" id="noose5">
+
+        </div>
+    </section>  
+    </main>
+<script src="HangmanApp.js"></script>
+</body>
+</html>

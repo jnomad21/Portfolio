@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    background-image: url(Fpics/Football-field.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    columns: 2;
+    overflow: hidden;
+}
+section{
+    position: relative;
+    height:80vh
+}
+.section1{
+    width:60%;
+    align-items: center;
+}
+.section2{
+    width:40%;
+    align-items: center;
+}
+#field{
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+    
+}
+#gallows{
+    z-index: 5;
+    align-content: left;
+    position: absolute;
+    width:100%
+    
+}
+.alpha{
+justify-content: center;
+text-align: center;
+margin-top: 5%;
+width: 100%
+}
+header{
+    text-align: center;
+    background-color: white;
+}
+#logo{
+    width:6%;
+    padding-top: 1%
+}
+#choose-letter{
+    background-color: white;
+    
+}
+#blank-spaces{
+    background: white;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 8%;
+    padding: 1% 3% 3%;
+}
+#blanks{
+    font-size: 24px;
+}
+.guessed {
+    background: white;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 8%;
+    padding: 3%;
+}
+#guessed-letter{
+    display: inline;
+    letter-spacing: 10px;
+    font-size: 26px;
+}
+
+#letter-input{
+    margin-left:3%
+}
+.incorrect-guesses{
+    display: inline;
+}
+
+#noose{
+    z-index: 6;
+    position:absolute;
+    
+}
+#noose1{
+    
+    z-index: 7;
+    display: none;
+    position:absolute;
+    
+}
+#noose2{
+    
+    z-index: 9;
+    display: none;
+    position:absolute;
+    
+}
+#noose3{
+    
+    z-index: 10;
+    display: none;
+    position:absolute;
+    
+}
+#noose4{
+    
+    z-index:11;
+    display: none;
+    position:absolute;
+    
+}
+#noose5{
+    
+    z-index: 12;
+    display: none;
+    position:absolute;
+    
+}
+.pics{
+    width: 130%;
+    height: auto;
+}
+
+@media screen and (max-width: 500px) {
+    #blank-spaces{
+        width: 300px;
+        position: absolute;
+        margin-left:50px;
+        margin-top: 50px;
+    }
+    .guessed {
+        width: 300px;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 250px;
+    }
+    main{
+        display: grid;
+        grid-template-rows: 40% 40%;
+    }
+    .alpha{
+        margin-left:35%;
+    }
+    #gallows{
+        
+        width: 300px;
+        margin:auto;
+    }
+    .section1{
+        height:450px
+    }
+    
+}
+
+
+
