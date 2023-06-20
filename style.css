@@ -122,6 +122,9 @@ main{
 #tech-logos{
     width: 30%
 }
+#react-logo{
+        width: 30%;
+    }
 
 #jm-pic {
     width: 160px;
@@ -360,6 +363,7 @@ main{
         margin-left: 50%;
         width: 60%
     }
+    
     .proj {
         margin-left: 140%;
         width: 160%;
