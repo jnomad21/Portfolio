@@ -177,11 +177,13 @@ main{
 }
 .rez-pages{
     display:inline;
-    width: 32%;
+    width: 45%;
     justify-content: center;
+    left: 20vw;
 }
 .resume {
     position: relative; 
+    left: 15vw;
 }
 #links{
     background: #1c1f3384;
