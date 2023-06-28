@@ -378,8 +378,8 @@ main{
     }
     .rez-pages {
         display: block;
-        width: 140%;
-        margin-left: -25%
+        width: 120%;
+        margin-left: -35%
     }
     #close-rez {
         width: 50%
